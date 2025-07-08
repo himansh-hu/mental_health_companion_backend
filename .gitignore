@@ -1,0 +1,25 @@
+# Gradle entries ---
+*.iml
+.gradle
+/local.properties
+/.idea/*
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# --- Python cache & venv ---
+__pycache__/
+*.py[cod]
+.venv/
+
+# --- Secrets ---
+.env            # <-- keep your real secrets out of git
+*.json          # Firebase serviceAccountKey etc.
+
+# --- Large model files ---
+*.keras
+*.pkl
+*.h5
