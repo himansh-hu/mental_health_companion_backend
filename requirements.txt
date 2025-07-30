@@ -4,7 +4,7 @@ firebase_admin==6.3.0
 gunicorn==22.0.0
 requests==2.31.0
 numpy==2.0.0
-pandas==2.2.2
+pandas==2.3.1
 scikit-learn==1.5.1
 imbalanced_learn==0.13.0
 tensorflow==2.16.1
