@@ -37,9 +37,9 @@ except Exception as e:
     db = None
 
 # loading models and tools
-MODEL_PATH = "C:/Projects/mental_health_companion/backend/sentiment_model.keras"
-TOKENIZER_PATH = "C:/Projects/mental_health_companion/backend/tokenizer.pkl"
-LABEL_ENCODER_PATH = "C:/Projects/mental_health_companion/backend/label_encoder.pkl"
+MODEL_PATH = "sentiment_model.keras"
+TOKENIZER_PATH = "tokenizer.pkl" 
+LABEL_ENCODER_PATH = "label_encoder.pkl"
 
 try:
     model = tf.keras.models.load_model(MODEL_PATH)
