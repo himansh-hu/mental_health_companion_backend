@@ -80,7 +80,7 @@ def load_ai_models():
     """
     print(" Loading AI models...")
     
-    # File paths - these work on both Windows (local) and Linux (Railway)
+    # File paths
     model_path = "sentiment_model.keras"
     tokenizer_path = "tokenizer.pkl" 
     label_encoder_path = "label_encoder.pkl"
